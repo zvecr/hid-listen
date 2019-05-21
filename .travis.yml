@@ -5,3 +5,4 @@ addons:
     packages:
     - build-essential
     - libusb-dev
+    - libudev-dev
