@@ -1,0 +1,30 @@
+{
+  "name": "hid-listen",
+  "version": "1.0.0",
+  "description": "Prints out debugging information from usb hid devices",
+  "author": "zvecr",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "npm run lint:js && npm run lint:md",
+    "lint:js": "eslint ./lib",
+    "lint:md": "remark .",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "async": "^2.6.2",
+    "byline": "^5.0.0",
+    "node-hid": "^0.7.7",
+    "smart-buffer": "^4.0.2",
+    "stream-buffers": "^3.0.2",
+    "usb": "^1.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "mocha": "^6.1.4",
+    "remark-cli": "^6.0.1",
+    "remark-preset-lint-recommended": "^3.0.2"
+  }
+}
