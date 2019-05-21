@@ -1,7 +1,7 @@
 {
   "name": "hid-listen",
   "version": "1.0.0",
-  "description": "Prints out debugging information from usb hid devices",
+  "description": "Library for acquiring debugging information from usb hid devices",
   "author": "zvecr",
   "license": "MIT",
   "main": "lib/index.js",
