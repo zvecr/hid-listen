@@ -32,7 +32,7 @@ chai.should();
 describe('HIDListen EventEmitter', () => {
   let mod;
   beforeEach(() => {
-    mod = new HIDListen({ tick: 250 });
+    mod = new HIDListen({ tick: 50, delay: 10 });
 
     mockFs.existsSync.returns(true);
     mockFs.readFileSync.returns(Buffer.of());
