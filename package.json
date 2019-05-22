@@ -2,8 +2,13 @@
   "name": "hid-listen",
   "version": "1.0.0",
   "description": "Library for acquiring debugging information from usb hid devices",
-  "author": "zvecr",
+  "author": "zvecr <npm@zvecr.com> (http://zvecr.com/)",
   "license": "MIT",
+  "repository": "zvecr/hid-listen",
+  "homepage": "https://github.com/zvecr/hid-listen#readme",
+  "keywords": [
+    "hid_listen"
+  ],
   "main": "lib/index.js",
   "scripts": {
     "lint": "npm run lint:js && npm run lint:md",
