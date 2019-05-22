@@ -10,3 +10,10 @@ addons:
     - build-essential
     - libusb-1.0-0-dev
     - libudev-dev
+
+deploy:
+  provider: npm
+  email: "npm@zvecr.com"
+  api_key: $NPM_API_KEY
+  on:
+    tags: true
