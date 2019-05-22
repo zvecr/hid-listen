@@ -10,7 +10,7 @@
     "lint:js": "eslint ./lib",
     "lint:md": "remark .",
     "test": "mocha",
-    "coverage": "nyc mocha"
+    "coverage": "nyc --reporter=text mocha"
   },
   "dependencies": {
     "async": "^3.0.0",
