@@ -9,7 +9,7 @@ NodeJS implementation of <https://www.pjrc.com/teensy/hid_listen.html>.
 
 ## Install
 
-```
+```shell
 $ npm install hid-listen
 ```
 
