@@ -1,6 +1,6 @@
 {
   "name": "hid-listen",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Library for acquiring debugging information from usb hid devices",
   "author": "zvecr <npm@zvecr.com> (http://zvecr.com/)",
   "license": "MIT",
